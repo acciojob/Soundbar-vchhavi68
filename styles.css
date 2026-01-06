@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+  padding: 50px;
+}
+
+h1 {
+  color: #222;
+}
+
+#buttons {
+  margin-top: 30px;
+}
+
+button {
+  padding: 15px 25px;
+  margin: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #222;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+button.stop {
+  background-color: #c0392b;
+}
+
+button.stop:hover {
+  background-color: #e74c3c;
+}
